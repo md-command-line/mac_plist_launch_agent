@@ -1,3 +1,12 @@
+## Instillation with ruby Rakefile
+1) clone project
+2) cd project
+3) rake install
+
+## Uninstall with ruby Rakefile
+1) cd project
+2) rake uninstall
+
 ## Template from which others can build Launch Agents.
 Make an application or a script a launch agent.
 
