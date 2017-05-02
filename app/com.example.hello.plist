@@ -6,7 +6,7 @@
 	<string>com.example.hello</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>This is a test. If still here, navigate to repo and run ./install_driver.</string>
+              <string>/Users/michaeldimmitt/Desktop/mac_plist_launch_agent/./app/DesktopBackgroundChanger.app/Contents/Resources/script</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>
