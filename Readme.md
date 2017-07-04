@@ -5,12 +5,18 @@ Make an application or a script a launch agent.
 Simple example of a mac app launch agent. People can use as a template. 
 <br>Starts and Stops via different bash scripts. 
 ## Installation(program persists when installed until uninstalled.)
-1) clone down project
-2) cd project<br>
+1) git clone your_project.git
+2) cd your_project
+3) git clone https://github.com/MichaelDimmitt/install_uninstall_shoes4.git
+
 <pre><b>install and start</b></pre>
-3) ./app/install_driver.sh<br>
+4) ./mac_plist_launch_agent/app/install_driver.sh 
 <pre><b>uninstall and stop</b></pre>
-4) ./app/uninstall_driver.sh
+5) ./mac_plist_launch_agent/app/uninstall_driver.sh 
+
+### to incorporate your main executable:
+1) overide script.sh with terminal install instructions.
+
 
 ## Challenges (why needed)
 Launch Agents do not immediately provide output<br>
