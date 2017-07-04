@@ -12,7 +12,5 @@
 	<true/>
 	<key>SuccessfulExit</key>
 	<false/>
-	<key>StartInterval</key>
-	<integer>1</integer>
 </dict>
 </plist>
