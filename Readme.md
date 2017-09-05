@@ -17,11 +17,11 @@ install_driver... sets the plist up and runs.
 ## Installation(program persists when installed until uninstalled.)
 1) git clone your_project.git
 2) cd your_project
-3) git clone https://github.com/MichaelDimmitt/install_uninstall_shoes4.git
+3) git clone https://github.com/MichaelDimmitt/mac_plist_launch_agent.git
 
-<pre><b>install and start</b></pre>
+### install and start 
 4) ./mac_plist_launch_agent/app/install_driver.sh
-<pre><b>uninstall and stop</b></pre>
+### uninstall and stop
 5) ./mac_plist_launch_agent/app/uninstall_driver.sh
 
 ### to incorporate your main executable:
