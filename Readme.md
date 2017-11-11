@@ -2,6 +2,15 @@
 1) overide app/script.sh with terminal install instructions.
 2) This repository can be found at https://github.com/MichaelDimmitt/mac_plist_launch_agent/
 
+## Installation(program persists when installed until uninstalled.)
+1) git clone your_project.git
+2) cd your_project
+3) git clone https://github.com/MichaelDimmitt/mac_plist_launch_agent.git
+4) cd mac_plist_launch_agent
+5) ./app/install_driver.sh
+6) ./app/uninstall_driver.sh
+
+7) now, modify script file to run your application from current DIR/../ to access your app.
 ## Template from which others can build Launch Agents.
 Only for Macintosh Computers, enjoy.
 Make an application or a script a launch agent.
@@ -13,11 +22,6 @@ Simple example of a mac app launch agent. People can use as a template.
 Launch Agents do not immediately provide output<br>
 to where a programmer can immediately see hello world.<br>
 install_driver... sets the plist up and runs.
-
-## Installation(program persists when installed until uninstalled.)
-1) git clone your_project.git
-2) cd your_project
-3) git clone https://github.com/MichaelDimmitt/mac_plist_launch_agent.git
 
 ### install and start 
 4) ./mac_plist_launch_agent/app/install_driver.sh
