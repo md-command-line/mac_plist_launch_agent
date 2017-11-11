@@ -9,7 +9,7 @@ mkdir $DIR/.tmp
 cp $DIR/com.example.hello.plist $DIR/.tmp/com.example.hello.plist
 
 # create the string needed.
-pwd2="              <string>$DIR/./script.sh</string>"
+pwd2="              <string>$DIR/./../script.sh</string>"
 echo $pwd2
 
 # insert path needed into correct file.
